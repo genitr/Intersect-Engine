@@ -617,6 +617,9 @@ namespace Intersect.Server.Localization
             public readonly LocalizedString playernamecommand = @"\pn";
 
             [JsonProperty(NullValueHandling = NullValueHandling.Ignore)]
+            public readonly LocalizedString playerclasscommand = @"\cl";
+
+            [JsonProperty(NullValueHandling = NullValueHandling.Ignore)]
             public readonly LocalizedString playerswitch = @"\ps";
 
             [JsonProperty(NullValueHandling = NullValueHandling.Ignore)]
